@@ -1,0 +1,33 @@
+.container-statistics {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.container-statistics .box {
+    position: relative;
+    width: 250px;
+    height: 120px;
+    background-color: #2b3035;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-statistics .box div h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+.container-statistics .box div span {
+    color: rgba(255, 255, 255, 0.8);
+}

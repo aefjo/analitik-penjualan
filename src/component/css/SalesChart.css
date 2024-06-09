@@ -1,0 +1,25 @@
+.container-chart {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+    gap: 20px;
+}
+
+.container-chart .box {
+    position: relative;
+    width: 40%;
+}
+
+@media (max-width: 576px) {
+    .container-chart {
+        flex-direction: column;
+    }
+
+    .container-chart .box {
+        width: 100%;
+    }
+}

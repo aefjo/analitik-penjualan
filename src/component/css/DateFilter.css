@@ -1,0 +1,48 @@
+nav {
+    position: relative;
+    width: 100%;
+    background-color: #2b3035;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    margin-bottom: 50px;
+    position: fixed;
+    z-index: 100;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+nav .nav-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav .nav-box select {
+    padding: 2px 7px;
+}
+
+nav h3 , nav span{
+    color: white;
+}
+
+@media (max-width: 576px) {
+    nav {
+        height: auto;
+        padding: 0px 20px;
+    }
+
+    .periode {
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .periode span {
+        font-size: 0.7em;
+    }
+}
